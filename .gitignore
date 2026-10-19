@@ -1,0 +1,22 @@
+# Local tools, credentials and environment files
+.commandcode/
+.codex/
+.agents/
+.aws/
+.env
+.env.*
+!.env.example
+
+# Bulky or private research execution evidence
+research/raw/
+research/tool-evidence.jsonl
+research/textbook/work/
+
+# Generated deployment and verification output
+_site/
+research/textbook/build-info.json
+research/textbook/qa-structural.json
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

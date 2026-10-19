@@ -1,0 +1,202 @@
+[
+  {
+    "path": "research/archive-logs.mjs",
+    "bytes": 1512
+  },
+  {
+    "path": "research/audit.md",
+    "bytes": 13683
+  },
+  {
+    "path": "research/collect.mjs",
+    "bytes": 3040
+  },
+  {
+    "path": "research/finalize.mjs",
+    "bytes": 3970
+  },
+  {
+    "path": "research/foundations.md",
+    "bytes": 25417
+  },
+  {
+    "path": "research/frontiers_recovery.md",
+    "bytes": 18247
+  },
+  {
+    "path": "research/frontiers.md",
+    "bytes": 18308
+  },
+  {
+    "path": "research/REPORT.md",
+    "bytes": 23249
+  },
+  {
+    "path": "research/review_memos.md",
+    "bytes": 9500
+  },
+  {
+    "path": "research/run-manifest.json",
+    "bytes": 4261
+  },
+  {
+    "path": "research/synthesis.md",
+    "bytes": 22728
+  },
+  {
+    "path": "research/systems_recovery.md",
+    "bytes": 26108
+  },
+  {
+    "path": "research/systems.md",
+    "bytes": 27603
+  },
+  {
+    "path": "research/tool-evidence.jsonl",
+    "bytes": 5346784
+  },
+  {
+    "path": "research/VERIFICATION.md",
+    "bytes": 6517
+  },
+  {
+    "path": "research/prompts/audit.txt",
+    "bytes": 957
+  },
+  {
+    "path": "research/prompts/foundations.txt",
+    "bytes": 2113
+  },
+  {
+    "path": "research/prompts/frontiers_recovery.txt",
+    "bytes": 1348
+  },
+  {
+    "path": "research/prompts/frontiers.txt",
+    "bytes": 1932
+  },
+  {
+    "path": "research/prompts/review_memos.txt",
+    "bytes": 1472
+  },
+  {
+    "path": "research/prompts/synthesis.txt",
+    "bytes": 2033
+  },
+  {
+    "path": "research/prompts/systems_recovery.txt",
+    "bytes": 1052
+  },
+  {
+    "path": "research/prompts/systems.txt",
+    "bytes": 1942
+  },
+  {
+    "path": "research/raw/audit.final.md",
+    "bytes": 13683
+  },
+  {
+    "path": "research/raw/audit.jsonl.gz",
+    "bytes": 69313050
+  },
+  {
+    "path": "research/raw/audit.stderr.txt",
+    "bytes": 0
+  },
+  {
+    "path": "research/raw/foundations.final.md",
+    "bytes": 24525
+  },
+  {
+    "path": "research/raw/foundations.jsonl.gz",
+    "bytes": 381412634
+  },
+  {
+    "path": "research/raw/foundations.partial.md",
+    "bytes": 75045
+  },
+  {
+    "path": "research/raw/foundations.stderr.txt",
+    "bytes": 0
+  },
+  {
+    "path": "research/raw/frontiers_recovery.final.md",
+    "bytes": 18247
+  },
+  {
+    "path": "research/raw/frontiers_recovery.jsonl.gz",
+    "bytes": 47650930
+  },
+  {
+    "path": "research/raw/frontiers_recovery.stderr.txt",
+    "bytes": 0
+  },
+  {
+    "path": "research/raw/frontiers.jsonl.gz",
+    "bytes": 675366722
+  },
+  {
+    "path": "research/raw/frontiers.partial.md",
+    "bytes": 96629
+  },
+  {
+    "path": "research/raw/frontiers.stderr.txt",
+    "bytes": 69
+  },
+  {
+    "path": "research/raw/orchestrator-draft.md",
+    "bytes": 23691
+  },
+  {
+    "path": "research/raw/probe.jsonl.gz",
+    "bytes": 16522
+  },
+  {
+    "path": "research/raw/review_memos.final.md",
+    "bytes": 9500
+  },
+  {
+    "path": "research/raw/review_memos.jsonl.gz",
+    "bytes": 37398335
+  },
+  {
+    "path": "research/raw/review_memos.stderr.txt",
+    "bytes": 0
+  },
+  {
+    "path": "research/raw/synthesis.final.md",
+    "bytes": 22728
+  },
+  {
+    "path": "research/raw/synthesis.jsonl.gz",
+    "bytes": 116500421
+  },
+  {
+    "path": "research/raw/synthesis.stderr.txt",
+    "bytes": 0
+  },
+  {
+    "path": "research/raw/systems_recovery.final.md",
+    "bytes": 26108
+  },
+  {
+    "path": "research/raw/systems_recovery.jsonl.gz",
+    "bytes": 127784069
+  },
+  {
+    "path": "research/raw/systems_recovery.stderr.txt",
+    "bytes": 0
+  },
+  {
+    "path": "research/raw/systems.jsonl.gz",
+    "bytes": 260314543
+  },
+  {
+    "path": "research/raw/systems.partial.md",
+    "bytes": 109174
+  },
+  {
+    "path": "research/raw/systems.stderr.txt",
+    "bytes": 69
+  }
+]

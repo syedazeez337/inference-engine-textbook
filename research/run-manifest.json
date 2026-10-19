@@ -1,0 +1,182 @@
+[
+  {
+    "run": "probe",
+    "status": "success",
+    "sessionId": "1935372c-3b47-4093-acb0-b71fed129cd2",
+    "models": [
+      "deepseek/deepseek-v4.1-flash-fast"
+    ],
+    "turns": 5,
+    "currentResponseCharacters": 620,
+    "webSearchCalls": 1,
+    "webFetchCalls": 2,
+    "toolErrors": 0,
+    "usage": {
+      "inputTokens": 72425,
+      "outputTokens": 552,
+      "cacheReadTokens": 59904,
+      "cacheWriteTokens": 0
+    },
+    "durationMs": 17430
+  },
+  {
+    "run": "foundations",
+    "status": "success",
+    "sessionId": "7016e31e-1eb6-4705-88d1-c1a9a2176022",
+    "models": [
+      "deepseek/deepseek-v4.1-flash-fast"
+    ],
+    "turns": 17,
+    "currentResponseCharacters": 99167,
+    "webSearchCalls": 28,
+    "webFetchCalls": 27,
+    "toolErrors": 4,
+    "usage": {
+      "inputTokens": 1592014,
+      "outputTokens": 48096,
+      "cacheReadTokens": 1392896,
+      "cacheWriteTokens": 0
+    },
+    "durationMs": 618514
+  },
+  {
+    "run": "systems",
+    "status": "error",
+    "sessionId": "a609e0bf-d683-479f-b666-3967e1383778",
+    "models": [
+      "deepseek/deepseek-v4.1-flash-fast"
+    ],
+    "turns": 18,
+    "currentResponseCharacters": 108646,
+    "webSearchCalls": 22,
+    "webFetchCalls": 33,
+    "toolErrors": 1,
+    "usage": {
+      "inputTokens": 3135490,
+      "outputTokens": 16143,
+      "cacheReadTokens": 2732928,
+      "cacheWriteTokens": 0
+    },
+    "durationMs": 424891
+  },
+  {
+    "run": "frontiers",
+    "status": "error",
+    "sessionId": "79ac0082-d06f-4a5f-98f4-a6ea644ae8de",
+    "models": [
+      "deepseek/deepseek-v4.1-flash-fast"
+    ],
+    "turns": 19,
+    "currentResponseCharacters": 95933,
+    "webSearchCalls": 26,
+    "webFetchCalls": 39,
+    "toolErrors": 2,
+    "usage": {
+      "inputTokens": 4661572,
+      "outputTokens": 18638,
+      "cacheReadTokens": 4189312,
+      "cacheWriteTokens": 0
+    },
+    "durationMs": 698781
+  },
+  {
+    "run": "audit",
+    "status": "success",
+    "sessionId": "f5157208-1f17-45bd-8250-ab12ae50fea5",
+    "models": [
+      "deepseek/deepseek-v4.1-flash-fast"
+    ],
+    "turns": 8,
+    "currentResponseCharacters": 13408,
+    "webSearchCalls": 2,
+    "webFetchCalls": 14,
+    "toolErrors": 0,
+    "usage": {
+      "inputTokens": 404002,
+      "outputTokens": 30845,
+      "cacheReadTokens": 306048,
+      "cacheWriteTokens": 0
+    },
+    "durationMs": 167232
+  },
+  {
+    "run": "systems_recovery",
+    "status": "success",
+    "sessionId": "5bb9f7b3-ac3d-4a1a-a3f1-f58ed494d0fc",
+    "models": [
+      "deepseek/deepseek-v4.1-flash-fast"
+    ],
+    "turns": 2,
+    "currentResponseCharacters": 48841,
+    "webSearchCalls": 0,
+    "webFetchCalls": 0,
+    "toolErrors": 0,
+    "usage": {
+      "inputTokens": 54376,
+      "outputTokens": 13997,
+      "cacheReadTokens": 46208,
+      "cacheWriteTokens": 0
+    },
+    "durationMs": 103148
+  },
+  {
+    "run": "synthesis",
+    "status": "success",
+    "sessionId": "fd2b8ff6-90fb-409c-b025-2904db6098b2",
+    "models": [
+      "deepseek/deepseek-v4.1-flash-fast"
+    ],
+    "turns": 5,
+    "currentResponseCharacters": 22663,
+    "webSearchCalls": 0,
+    "webFetchCalls": 0,
+    "toolErrors": 0,
+    "usage": {
+      "inputTokens": 204150,
+      "outputTokens": 18574,
+      "cacheReadTokens": 145664,
+      "cacheWriteTokens": 0
+    },
+    "durationMs": 92764
+  },
+  {
+    "run": "review_memos",
+    "status": "success",
+    "sessionId": "bfa0e5de-4440-41be-b966-12926bdd1c9f",
+    "models": [
+      "deepseek/deepseek-v4.1-flash-fast"
+    ],
+    "turns": 7,
+    "currentResponseCharacters": 9304,
+    "webSearchCalls": 9,
+    "webFetchCalls": 8,
+    "toolErrors": 0,
+    "usage": {
+      "inputTokens": 305558,
+      "outputTokens": 24292,
+      "cacheReadTokens": 231808,
+      "cacheWriteTokens": 0
+    },
+    "durationMs": 132295
+  },
+  {
+    "run": "frontiers_recovery",
+    "status": "success",
+    "sessionId": "a61a367b-1699-4e51-881b-1c1ec5c0ceaf",
+    "models": [
+      "deepseek/deepseek-v4.1-flash-fast"
+    ],
+    "turns": 2,
+    "currentResponseCharacters": 18184,
+    "webSearchCalls": 0,
+    "webFetchCalls": 0,
+    "toolErrors": 0,
+    "usage": {
+      "inputTokens": 45672,
+      "outputTokens": 11012,
+      "cacheReadTokens": 18176,
+      "cacheWriteTokens": 0
+    },
+    "durationMs": 55258
+  }
+]

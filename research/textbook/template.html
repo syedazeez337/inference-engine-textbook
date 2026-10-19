@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="$if(lang)$$lang$$else$en$endif$" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>$if(pagetitle)$$pagetitle$$else$$if(title)$$title$$else$Inference Engines: A Research Textbook$endif$$endif$</title>
+$if(date-meta)$<meta name="date" content="$date-meta$">$endif$
+$for(author-meta)$<meta name="author" content="$author-meta$">$endfor$
+<meta name="description" content="An offline research textbook on neural inference engines, from transformer execution to serving systems.">
+<meta name="generator" content="Pandoc with native MathML and an embedded custom book theme">
+<script>
+(function () {
+  document.documentElement.classList.add('js');
+  try {
+    var theme = localStorage.getItem('inference-textbook-theme');
+    if (theme === 'dark' || theme === 'light') {
+      document.documentElement.setAttribute('data-theme', theme);
+    }
+    var size = localStorage.getItem('inference-textbook-textsize');
+    if (size === 'small' || size === 'normal' || size === 'large' || size === 'xlarge') {
+      document.documentElement.setAttribute('data-textsize', size);
+    }
+  } catch (error) {}
+}());
+</script>
+<!--INLINE_STYLE-->
+</head>
+<body>
+<a class="skip-link" href="#book-main">Skip to main content</a>
+<div class="reading-progress" id="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="reading-progress-bar" id="reading-progress-bar"></div></div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-brand" href="#book-cover-title"><span class="brand-mark" aria-hidden="true"></span><span class="brand-title">Inference Engines</span><span class="brand-sub">Research textbook</span></a>
+    <div class="reader-controls" aria-label="Reader settings">
+      <button type="button" class="control-button" id="theme-toggle" data-action="theme" aria-pressed="false" aria-label="Switch to dark theme"><span id="theme-label">Dark</span></button>
+      <div class="font-controls" role="group" aria-label="Text size">
+        <button type="button" class="control-button font-button" data-action="font-decrease" aria-label="Decrease text size" title="Decrease text size">A−</button>
+        <button type="button" class="control-button font-button" data-action="font-reset" aria-label="Reset text size" title="Reset text size">A</button>
+        <button type="button" class="control-button font-button" data-action="font-increase" aria-label="Increase text size" title="Increase text size">A+</button>
+      </div>
+      <button type="button" class="control-button" data-action="print" aria-label="Print this book" title="Print this book">Print</button>
+      <span id="text-size-status" class="visually-hidden" aria-live="polite"></span>
+    </div>
+  </div>
+</header>
+<div class="book-shell">
+  <aside class="book-sidebar" id="book-sidebar" aria-label="Book navigation">
+    <button type="button" class="toc-toggle" id="toc-toggle" aria-expanded="true" aria-controls="book-toc">Contents</button>
+    <nav class="book-toc" id="book-toc" aria-label="Table of contents">
+      <h2 class="toc-title">Contents</h2>
+      $if(toc)$
+      $table-of-contents$
+      $endif$
+      <p class="toc-extra"><a href="#src-inventory-appendix">Source inventory &amp; provenance</a></p>
+      <noscript><p class="noscript-note">JavaScript is off. The full book and contents links remain available; reader settings and the print button are unavailable. Use your browser's print command to print.</p></noscript>
+    </nav>
+  </aside>
+  <main class="book-main" id="book-main" tabindex="-1">
+    <section class="cover" aria-labelledby="book-cover-title">
+      <p class="cover-kicker">A research textbook</p>
+      <h1 class="cover-title" id="book-cover-title">$if(title)$$title$$else$Inference Engines: A Research Textbook$endif$</h1>
+      <p class="cover-subtitle">From transformer execution to serving systems</p>
+      <p class="cover-byline">$if(author)$$for(author)$$author$$sep$ · $endfor$$else$Research synthesis$endif$</p>
+      <p class="cover-date">$if(date)$$date$$else$Research cutoff: 19 October 2026$endif$</p>
+      <div class="cover-art" aria-hidden="true">
+        <svg viewBox="0 0 640 128" role="presentation" focusable="false">
+          <defs>
+            <linearGradient id="cover-fade" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="currentColor" stop-opacity=".06"/>
+              <stop offset="1" stop-color="currentColor" stop-opacity=".24"/>
+            </linearGradient>
+          </defs>
+          <path d="M24 101h112l28-29h112l28 29h120l28-29h92" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" opacity=".9"/>
+          <path d="M24 70h92l28-28h126l28 28h116l28-28h98" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" opacity=".58"/>
+          <path d="M24 39h105l28 28h112l28-28h132l28 28h93" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" opacity=".34"/>
+          <g fill="currentColor" opacity=".24">
+            <circle cx="164" cy="101" r="3.1"/><circle cx="304" cy="101" r="3.1"/><circle cx="424" cy="101" r="3.1"/><circle cx="544" cy="101" r="3.1"/>
+            <circle cx="144" cy="70" r="3.1"/><circle cx="298" cy="70" r="3.1"/><circle cx="442" cy="70" r="3.1"/>
+            <circle cx="157" cy="39" r="3.1"/><circle cx="297" cy="39" r="3.1"/><circle cx="457" cy="39" r="3.1"/>
+          </g>
+          <rect x="198" y="13" width="82" height="22" rx="5" fill="none" stroke="currentColor" stroke-width="1.1" opacity=".5"/>
+          <rect x="326" y="13" width="82" height="22" rx="5" fill="none" stroke="currentColor" stroke-width="1.1" opacity=".5"/>
+          <path d="M280 24h46" fill="none" stroke="currentColor" stroke-width="1.1" opacity=".5"/>
+          <path d="M24 112h592" fill="none" stroke="url(#cover-fade)" stroke-width="2"/>
+        </svg>
+      </div>
+    </section>
+    <article class="book-content">
+      $body$
+      <!--SOURCE_INVENTORY-->
+    </article>
+    <footer class="book-footer">
+      <p><strong>Research cutoff:</strong> 19 October 2026. This book is an editorial synthesis of the research in this folder, not new empirical work or a benchmark reproduction.</p>
+      <p>Source access levels, corrections and provenance are recorded in the canonical reports and the complete source inventory. Source links point to the original local files; raw machine traces are linked but not decompressed.</p>
+      <p><!--BUILD_STAMP--> <a class="back-to-top" href="#book-cover-title">Back to top</a></p>
+    </footer>
+  </main>
+</div>
+<!--INLINE_SCRIPT-->
+</body>
+</html>
